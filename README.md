@@ -53,4 +53,4 @@ Busco roles senior en automatización, backend orientado a procesos, integració
 
 Contacto profesional:
 Bogotá, Colombia  
-LinkedIn: www.linkedin.com/in/alvarocontrerasrosas
+LinkedIn: www.linkedin.com/in/alvarocontreras-automation
