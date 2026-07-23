@@ -1,0 +1,19 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporales y registros
+*.log
+*.tmp
+*.temp
+
+# Configuración sensible futura
+.env
+.env.*
+!.env.example

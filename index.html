@@ -1,631 +1,220 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alvaro Contreras | Senior Automation & Backend Python Engineer</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, sans-serif;
-            background: #0f172a;
-            color: #e5e7eb;
-        }
-
-        a {
-            color: #38bdf8;
-            text-decoration: none;
-        }
-
-        header {
-            padding: 60px 30px;
-            text-align: center;
-            background: linear-gradient(135deg, #020617, #1e293b);
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.2rem;
-        }
-
-        header h2 {
-            margin-top: 10px;
-            font-weight: 400;
-            color: #94a3b8;
-        }
-
-        header p {
-            max-width: 720px;
-            margin: 20px auto;
-            font-size: 1rem;
-        }
-
-        section {
-            padding: 40px 30px;
-            max-width: 1000px;
-            margin: auto;
-        }
-
-        h3 {
-            color: #38bdf8;
-            margin-bottom: 20px;
-        }
-
-        h4 {
-            margin-top: 25px;
-            color: #e5e7eb;
-            margin-bottom: 10px;
-        }
-
-        h5 {
-            margin-top: 25px;
-            color: #FEF9C2;
-            margin-bottom: 10px;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 20px;
-        }
-
-        .card,
-        .project,
-        .xp {
-            background: #020617;
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-
-        ul {
-            padding-left: 18px;
-        }
-
-        span {
-            display: block;
-            margin-top: 10px;
-            font-size: 0.85rem;
-            color: #94a3b8;
-        }
-
-        details {
-            background: #020617;
-            border-radius: 12px;
-            padding: 16px;
-            margin-top: 10px;
-        }
-
-        summary {
-            cursor: pointer;
-            color: #38bdf8;
-            font-weight: 600;
-        }
-
-        .muted {
-            color: #94a3b8;
-            font-size: 0.95rem;
-        }
-
-        footer {
-            text-align: center;
-            padding: 30px;
-            background: #020617;
-            font-size: 0.9rem;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio profesional de Álvaro Andrés Contreras Rosas: automatización, integración de sistemas y optimización de procesos.">
+  <meta name="author" content="Álvaro Andrés Contreras Rosas">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Álvaro Andrés Contreras Rosas | Automatización e Integración de Sistemas">
+  <meta property="og:description" content="Consultoría senior en automatización, integración de sistemas y optimización de procesos.">
+  <meta property="og:url" content="https://alvaro-contreras.github.io/alvaro-contreras-senior-automation-cv/">
+  <meta name="twitter:card" content="summary">
+  <title>Álvaro Andrés Contreras Rosas | Automatización e Integración de Sistemas</title>
+  <link rel="canonical" href="https://alvaro-contreras.github.io/alvaro-contreras-senior-automation-cv/">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
 </head>
-
 <body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
 
-    <header>
-        <h1>Alvaro Andrés Contreras Rosas</h1>
-        <h2>Senior Automation & Backend Python Engineer</h2>
-        <p>
-            Soluciono problemas operativos reales mediante automatización y backend Python.
-            Diseño e implemento soluciones en producción que reducen costos, eliminan errores
-            manuales y mejoran la continuidad operativa.
-        </p>
-
-        <p>
-            🔗 <a href="https://www.linkedin.com/in/alvarocontreras-automation/" target="_blank">LinkedIn</a> |
-            💻 <a href="https://github.com/Alvaro-Contreras" target="_blank">GitHub</a>
-        </p>
-    </header>
-
-    <section>
-        <h3>Perfil Profesional</h3>
-        <p>
-            Ingeniero Senior de Automatización y Backend Python con más de 10 años de experiencia
-            diseñando e implementando soluciones en producción. Trabajo directamente con áreas de
-            negocio para entender procesos reales y transformarlos en software mantenible:
-            automatizaciones, integraciones y herramientas internas que optimizan tiempos,
-            reducen errores y fortalecen la operación.
-        </p>
-
-        <p class="muted">
-            Nota: Seniority por experiencia e impacto en producción (no por título académico finalizado).
-            Cursé hasta octavo semestre de ingeniería.
-        </p>
-    </section>
-
-    <section>
-        <h3>Especialidades Técnicas</h3>
-        <div class="grid">
-
-            <div class="card">
-                <strong>Backend Python</strong>
-                <ul>
-                    <li>Python (FastAPI, scripting productivo)</li>
-                    <li>Integraciones, ETL livianos, manejo de errores y logging</li>
-                </ul>
-            </div>
-
-            <div class="card">
-                <strong>Automation & RPA</strong>
-                <ul>
-                    <li>Automatización de procesos operativos y administrativos</li>
-                    <li>UiPath · Automation Anywhere · Power Automate</li>
-                    <li>Integración con Excel/VBA, Google Sheets y sistemas legacy</li>
-                </ul>
-            </div>
-
-            <div class="card">
-                <strong>Lenguajes complementarios</strong>
-                <ul>
-                    <li>Java (experiencia funcional y docente)</li>
-                    <li>TypeScript (automatizaciones y bots)</li>
-                    <li>VBA (Excel avanzado)</li>
-                </ul>
-            </div>
-
-            <div class="card">
-                <strong>QA Automation</strong>
-                <ul>
-                    <li>PyTest (pruebas unitarias e integración)</li>
-                    <li>Selenium (automatización UI)</li>
-                </ul>
-            </div>
-
-            <div class="card">
-                <strong>Infra & Operación</strong>
-                <ul>
-                    <li>Linux · Bash · Windows</li>
-                    <li>Jobs programados y recuperación operativa</li>
-                </ul>
-            </div>
-
-            <div class="card">
-                <strong>Data & Reporting</strong>
-                <ul>
-                    <li>Excel avanzado · VBA</li>
-                    <li>Power BI (KPIs y dashboards operativos)</li>
-                </ul>
-            </div>
-
-        </div>
-    </section>
-
-    <section>
-        <h3>Proyectos</h3>
-
-        <div class="project">            
-            <strong>People Manager Web – Plataforma de gestión operativa (en desarrollo)</strong>
-            <h3>Cliente: Pontificia Universidad Javeriana</h3>
-            <p>
-                Evolución de una solución operativa previamente puesta en producción para la gestión
-                y trazabilidad de procesos. El sistema original resolvió de forma estable y efectiva
-                una necesidad real bajo restricciones técnicas y de infraestructura específicas.
-                <br><br>
-                La arquitectura inicial, basada en SQLite y sincronización mediante OneDrive, fue
-                una decisión deliberada alineada con el contexto del cliente, evitando servidores
-                dedicados y servicios adicionales. Esta solución permitió validar el valor del
-                sistema en producción.
-                <br><br>
-                Ante el crecimiento del volumen transaccional y la concurrencia, se decide realizar
-                un refactor integral y evolucionar el sistema hacia una plataforma web completa,
-                migrando la persistencia a PostgreSQL y desarrollando el backend con Django, con
-                enfoque en escalabilidad, integridad de datos y continuidad operativa durante la
-                transición.
-                <br><br>
-                <strong>Rol:</strong> responsabilidad end-to-end del proyecto, incluyendo arquitectura,
-                modelado de datos, desarrollo backend, refactor de lógica existente, implementación
-                de nuevas funcionalidades y administración de servidores.
-                <br><br>
-                <strong>Impacto esperado:</strong><br>
-                • Mayor capacidad transaccional y soporte a concurrencia.<br>
-                • Mejora en robustez e integridad de datos.<br>
-                • Reducción de riesgos técnicos asociados al crecimiento operativo.<br>
-                • Base sólida para la evolución futura de la plataforma.
-            </p>
-            <span>
-                Python · Django · PostgreSQL · Backend Web · Arquitectura de Aplicaciones ·
-                Automatización · Linux · SQLite (versión previa)
-            </span>
-        </div>
-
-        <div class="project">
-            <strong>Bot de Automatización PeopleSoft (en producción)</strong>
-            <h3>Cliente: Pontificia Universidad Javeriana</h3>
-            <p>
-                Bot ejecutable desarrollado en Python para la automatización de procesos
-                operativos en PeopleSoft, actualmente en producción.
-                <br><br>
-                El bot utiliza una librería propia basada en Selenium para ejecutar flujos
-                de forma controlada y repetible, integrándose con la autenticación
-                corporativa mediante Microsoft Authenticator (2FA) sin intervención humana,
-                aprovechando el perfil autenticado del navegador.
-                <br><br>
-                La solución consume información desde una base de datos SQLite, ejecuta
-                actualizaciones en PeopleSoft y retorna el estado del proceso, permitiendo
-                trazabilidad completa para usuarios y áreas operativas.
-                <br><br>
-                <strong>Impacto:</strong><br>
-                • Tiempo: automatización completa de procesos repetitivos en PeopleSoft.<br>
-                • Errores: reducción significativa de errores manuales y reprocesos.<br>
-                • Recursos: eliminación de carga operativa manual recurrente.<br>
-                • Operación: ejecución autónoma, segura y controlada en entorno productivo.
-            </p>
-            <span>
-                Python · Selenium (librería propia) · PeopleSoft · SQLite ·
-                Windows Task Scheduler · Automatización
-            </span>
-        </div>
-
-        <div class="project">
-            <strong>People Manager (V1) – Aplicativo Excel/VBA para gestión operativa (en producción)</strong>
-            <h3>Cliente: Pontificia Universidad Javeriana</h3>
-            <p>
-                Aplicativo desarrollado en <strong>Visual Basic para Excel</strong> para la gestión y validación
-                de información operativa utilizada por procesos automatizados. Esta primera versión fue
-                diseñada por requerimiento del cliente para <strong>reducir el impacto en los usuarios</strong>
-                y facilitar la adopción, aprovechando una herramienta familiar (Excel) y minimizando la resistencia
-                al cambio.
-                <br><br>
-                El aplicativo permite a múltiples usuarios registrar y actualizar información con
-                <strong>validaciones</strong> y control de consistencia, manteniendo trazabilidad del proceso.
-                La persistencia se implementó con <strong>SQLite</strong>, sincronizada mediante
-                <strong>OneDrive</strong>, lo que habilita operación distribuida (usuarios en diferentes ubicaciones
-                y redes) sin requerir servidores dedicados ni servicios adicionales.
-                <br><br>
-                Esta solución se mantiene en operación como base de captura y control del proceso, permitiendo que
-                la automatización consuma los datos y devuelva el estado de ejecución para consulta de los usuarios.
-                <br><br>
-                <strong>Rol:</strong> diseño e implementación end-to-end del aplicativo, incluyendo estructura de
-                datos, validaciones, gestión de operaciones sobre la base SQLite y soporte de operación.
-                <br><br>
-                <strong>Impacto:</strong><br>
-                • Adopción rápida al mantener la experiencia del usuario en Excel.<br>
-                • Reducción de errores manuales mediante validaciones y consistencia de datos.<br>
-                • Operación distribuida sin infraestructura adicional gracias a sincronización por OneDrive.<br>
-                • Base estable para procesos automatizados y trazabilidad operativa.
-            </p>
-            <span>
-                Excel · VBA · SQLite · OneDrive · Validaciones · Trazabilidad operativa · Windows
-            </span>
-        </div>
-
-        <div class="project">
-            <strong>BOT Universidad Javeriana – Automatización Contractual: Fases (en producción)</strong>
-            <h3>Cliente: Pontificia Universidad Javeriana</h3>
-            <p>
-                Automatización en producción desde 2022 para la actualización de fases del proceso contractual en
-                Educación Continua.
-                <br><br>
-                <strong>Impacto:</strong><br>
-                • Tiempo: reducción significativa de gestión manual repetitiva.<br>
-                • Errores: disminución de inconsistencias en estados contractuales.<br>
-                • Recursos: menor carga operativa para personal administrativo.<br>
-                • Operación: mayor trazabilidad y confiabilidad del proceso.
-            </p>
-            <span>TypeScript · POO · Google Sheets ·
-                <a href="https://github.com/Alvaro-Contreras/actualizacion_fases_contratos" target="_blank">Repositorio
-                    (demo sanitizada)</a>
-            </span>
-        </div>
-
-        <div class="project">
-            <strong>Automatización de Impresión Masiva (Windows) (en producción)</strong>
-            <h3>Cliente: Pontificia Universidad Javeriana</h3>
-            <p>
-                Aplicación de escritorio en Python para imprimir rótulos por lotes sin intervención del usuario
-                (usuarios no técnicos).
-                <br><br>
-                <strong>Impacto:</strong><br>
-                • Tiempo: automatización completa del flujo de impresión.<br>
-                • Errores: eliminación de fallos por manipulación manual.<br>
-                • Recursos: liberación de personal operativo.<br>
-                • Operación: estandarización y trazabilidad por timestamp.
-            </p>
-            <span>Python · Win32 API · Tkinter ·
-                <a href="https://github.com/Alvaro-Contreras/rotulos-print-app" target="_blank">Repositorio</a>
-            </span>
-        </div>
-
-        <div class="project">
-            <strong>Public IP Guardian – Continuidad Operativa (Linux) (en producción)</strong>
-            <h3>Proyecto propio</h3>
-            <p>
-                Servicio autónomo que detecta cambios de IP pública y ejecuta acciones de notificación y recuperación
-                operativa.
-                <br><br>
-                <strong>Impacto:</strong><br>
-                • Tiempo: reducción del tiempo de recuperación de incidentes (de horas a minutos).<br>
-                • Errores: eliminación de fallos por actualización manual tardía o incorrecta.<br>
-                • Recursos: menor dependencia de soporte reactivo.<br>
-                • Operación: mejora de disponibilidad y continuidad del servicio.
-            </p>
-            <span>Python · Bash · Linux ·
-                <a href="https://github.com/Alvaro-Contreras/Public-IP-Guardian-Monitor-Auto-Recovery-Notifier"
-                    target="_blank">Repositorio</a>
-            </span>
-        </div>
-
-        <h4>Proyectos secundarios</h4>
-
-        <details>
-            <summary>Ver proyectos secundarios</summary>
-
-            <div class="project" style="margin-top:16px;">
-                <strong>Seguimiento y trazabilidad – Sistema de administración del riesgo (Salud)</strong>
-                <h3>Consultoria independiente - Cliente confidencial</h3>
-                <p>
-                    Aplicación para seguimiento y trazabilidad del sistema de administración del riesgo del programa de
-                    salud (EPS).
-                    <br><br>
-                    <strong>Estado:</strong> Producción histórica (ya no activo).<br>
-                    <strong>Tiempo de operación:</strong> más de 1 año.<br>
-                    <strong>Frecuencia de uso:</strong> (periodica durante la operación).<br><br>
-                    <strong>Impacto:</strong><br>
-                    • Tiempo: mejora en consolidación y consulta de información de riesgo.<br>
-                    • Errores: reducción de inconsistencias por seguimiento manual.<br>
-                    • Recursos: disminución de trabajo repetitivo de análisis y reporte.<br>
-                    • Operación: mejor control del riesgo y soporte a decisiones.
-                </p>
-                <span>Excel · VBA · Bases de datos · Gestión de riesgos</span>
-            </div>
-
-            <div class="project">
-                <strong>Integración en tiempo real – Ejecución presupuestal de proyectos (PUJ)</strong>
-                <h3>Cliente: Pontificia Universidad Javeriana</h3>
-                <p>
-                    Herramienta de integración y consolidación de información presupuestal para gestión y seguimiento
-                    institucional.
-                    <br><br>
-                    <strong>Estado:</strong> Producción histórica (ya no activo).<br>
-                    <strong>Tiempo de operación:</strong> más de 1 año.<br>
-                    <strong>Frecuencia de uso:</strong> (periodica durante la operación).<br><br>
-                    <strong>Impacto:</strong><br>
-                    • Tiempo: reducción del tiempo de consolidación de múltiples fuentes.<br>
-                    • Errores: disminución de errores por manejo manual de información.<br>
-                    • Recursos: menos horas de analista en tareas repetitivas.<br>
-                    • Operación: visibilidad oportuna para seguimiento y toma de decisiones.
-                </p>
-                <span>Power BI · VBA · Power Automate</span>
-            </div>
-
-        </details>
-    </section>
-
-    <section>
-        <h3>Experiencia Profesional</h3>
-
-        <div class="xp">
-            <h3>Cliente: Pontificia Universidad Javeriana</h3>
-            <strong>Desarrollador Backend / Automation – People Manager Web</strong>
-            <span>2026 – Actualidad · Plataforma web en desarrollo</span>
-            <ul>
-                <li>
-                    Evolución de una solución operativa previamente puesta en producción hacia una
-                    plataforma web escalable, manteniendo continuidad operativa durante la transición.
-                </li>
-                <li>
-                    Toma de decisiones arquitectónicas basadas en contexto: arquitectura inicial con
-                    SQLite y sincronización por OneDrive, validada en producción bajo restricciones
-                    de infraestructura.
-                </li>
-                <li>
-                    Refactor integral del sistema y migración de persistencia a PostgreSQL para
-                    soportar mayor volumen transaccional, concurrencia e integridad de datos.
-                </li>
-                <li>
-                    Diseño de arquitectura backend, modelado de datos, desarrollo con Django e
-                    implementación de nuevas funcionalidades.
-                </li>
-                <li>
-                    Configuración y administración del servidor de aplicación y base de datos en
-                    entorno Linux.
-                </li>
-            </ul>
-            <p class="muted">
-                Enfoque end-to-end: definición del problema, diseño de la solución, implementación,
-                puesta en producción y preparación para crecimiento futuro.
-            </p>
-        </div>
-
-        <div class="xp">
-            <h3>Cliente: Pontificia Universidad Javeriana</h3>
-            <strong>Desarrollador Backend / Automation – Proyecto de Automatizacion: Proceso People Soft</strong>
-            <span>2025 – 2025 · Sistema en producción</span>
-            <ul>
-                <li>
-                    Diseño, desarrollo y operación de una solución de automatización en producción compuesta
-                    por el aplicativo <strong>People Manager</strong> (desarrollado en Visual Basic para Excel)
-                    y un <strong>bot de automatización en Python</strong> para la ejecución de procesos
-                    operativos sobre PeopleSoft.
-                </li>
-                <li>
-                    Desarrollo de <strong>People Manager V1</strong> como aplicativo de gestión de información
-                    operativa, permitiendo a múltiples usuarios registrar, validar y dar seguimiento a la
-                    información utilizada por los procesos automatizados.
-                </li>
-                <li>
-                    Implementación de persistencia de datos mediante <strong>SQLite</strong>, con
-                    sincronización vía <strong>OneDrive</strong>, permitiendo el uso distribuido del sistema
-                    por usuarios en diferentes ubicaciones y redes, sin requerir infraestructura de
-                    servidores dedicada.
-                </li>
-                <li>
-                    Desarrollo de un bot ejecutable en <strong>Python</strong>, basado en una librería propia
-                    construida sobre Selenium, ejecutado mediante <strong>Windows Task Scheduler</strong> en
-                    una máquina dedicada para asegurar operación autónoma y controlada.
-                </li>
-                <li>
-                    Resolución del desafío de autenticación corporativa con doble factor (2FA) utilizando el
-                    perfil autenticado del navegador, evitando intervención humana durante la ejecución del
-                    bot y sobrecostos asociados a integraciones por API, manteniendo la seguridad del proceso.
-                </li>
-                <li>
-                    Integración completa entre People Manager y el bot: los usuarios registran la información
-                    en el aplicativo, el bot consume los datos desde la base de datos, ejecuta las
-                    actualizaciones en PeopleSoft y retorna el estado del proceso para su visualización y
-                    trazabilidad.
-                </li>
-                <li>
-                    Operación sostenida en producción con más de <strong>10 usuarios activos</strong>,
-                    contrato vigente y soporte continuo para asegurar estabilidad y continuidad operativa.
-                </li>
-            </ul>
-            <p class="muted">
-                Enfoque end-to-end: análisis del problema operativo, diseño de la solución, automatización,
-                puesta en producción, soporte continuo y mejora incremental dentro del alcance definido por
-                el usuario.
-            </p>
-        </div>
-
-        <div class="xp">
-            <h3>Consultoria independiente - Cliente confidencial</h3>
-            <strong>Desarrollador RPA / Python Backend / QA Automation – Profesional independiente</strong>
-            <span>Ene 2023 – feb 2023 · Remoto / Bogotá</span>
-            <ul>
-                <li>Automatización de procesos operativos y administrativos, integrando sistemas existentes.</li>
-                <li>Desarrollo de herramientas y automatizaciones con foco en estabilidad y resultados medibles.</li>
-                <li>Trabajo directo con negocio: levantamiento, diseño, implementación y soporte en producción.</li>
-            </ul>
-            <p class="muted">
-                Impacto típico: reducción de tiempos manuales, disminución de errores y liberación de capacidad
-                operativa.
-            </p>
-        </div>
-
-        <div class="xp">
-            <strong>Profesor – Superprof</strong>
-            <span>Ene 2020 – Actualidad · Remoto</span>
-            <ul>
-                <li>Formación en Python, Java y VBA (enfoque práctico y profesional).</li>
-                <li>Capacidad de explicar conceptos complejos de forma simple (método Feynman).</li>
-            </ul>
-            <span>
-                🔗 <a
-                    href="https://www.superprof.co/profesor-python-java-vba-for-excel-experiencia-desarrollo-soluciones-para-automatizacion-procesos.html"
-                    target="_blank">Perfil en Superprof</a>
-            </span>
-        </div>
-
-        <div class="xp">
-            <h3>Consultoria independientes - Cliente confidenciales</h3>
-            <strong>Desarrollador RPA – Independent Consultant</strong>
-            <span>Ene 2019 – Actualidad · Remoto</span>
-            <ul>
-                <li>Automatización de procesos y soluciones de integración con herramientas disponibles en la
-                    organización.</li>
-                <li>Enfoque consultivo: entender necesidades y traducirlas a soluciones técnicas efectivas.</li>
-                <li>Uso de Python, VBA y plataformas RPA (UiPath, Automation Anywhere, Power Automate).</li>
-            </ul>
-            <p class="muted">
-                Impacto típico: reducción de costos operativos y aumento de eficiencia mediante automatización.
-            </p>
-        </div>
-
-        <h4>Histórico completo</h4>
-
-        <details>
-            <summary>Ver experiencia histórica completa (2013–2020)</summary>
-
-            <div class="xp" style="margin-top:16px;">
-                <strong>Ingeniero de automatización de procesos – Freshapp (independiente)</strong>
-                <span>Dic 2019 – Feb 2020 · Bogotá</span>
-                <ul>
-                    <li>Análisis, estructuración y desarrollo de aplicativo para automatización en compras y
-                        proveedores.
-                    </li>
-                    <li>Desarrollo de modelo predictivo para demanda de productos.</li>
-                </ul>
-            </div>
-
-            <div class="xp">
-                <strong>Ingeniero de automatización de procesos – Loncheo (independiente)</strong>
-                <span>Jun 2019 – Nov 2019 · Bogotá</span>
-                <ul>
-                    <li>Diseño y desarrollo de soluciones para automatizar toma, preparación y entrega de pedidos.</li>
-                </ul>
-            </div>
-
-            <div class="xp">
-                <strong>Desarrollador freelance – Cruz Blanca IPS</strong>
-                <span>Jul 2018 – Sep 2018 · Bogotá</span>
-                <ul>
-                    <li>Aplicativo para estadísticas e indicadores del proceso de referentes contra referentes.</li>
-                    <li>Implementación en Visual Basic.</li>
-                </ul>
-            </div>
-
-            <div class="xp">
-                <strong>Coordinador Censo Catastral – Empopamplona</strong>
-                <span>Ene 2017 – Dic 2017 · Pamplona</span>
-                <ul>
-                    <li>Desarrollo del software Elephant.CU para catastro de usuarios (servicios públicos).</li>
-                    <li>Coordinación operativa, gestión social, análisis y entrega de información.</li>
-                </ul>
-            </div>
-
-            <div class="xp">
-                <strong>Desarrollador freelance – Caja de Compensación Familiar Comfaoriente</strong>
-                <span>Feb 2016 – Sep 2016 · Cúcuta</span>
-                <ul>
-                    <li>RICS: aplicación para registro individual en salud (promoción y prevención) para generar glosas.
-                    </li>
-                    <li>Implementación en Visual Basic.</li>
-                </ul>
-            </div>
-
-            <div class="xp">
-                <strong>Desarrollador freelance – VidaMedical IPS</strong>
-                <span>Abr 2014 – Oct 2014 · Bogotá</span>
-                <ul>
-                    <li>Aplicativo para análisis y gestión de pacientes aptos para tratamientos y reporte automático de
-                        pacientes críticos.</li>
-                    <li>Implementación en Visual Basic.</li>
-                </ul>
-            </div>
-
-            <div class="xp">
-                <strong>Asesor de análisis en procesos comerciales – Auditoría y Desarrollo Empresarial S.A.S.</strong>
-                <span>2013 – 2014</span>
-                <ul>
-                    <li>Análisis de procesos comerciales y apoyo en estructuración operativa.</li>
-                </ul>
-            </div>
-
-        </details>
-
-    </section>
-
-    <section>
-        <h3>Formación</h3>
-        <ul>
-            <li>Ingeniería – Octavo semestre cursado</li>
-            <li>Formación autodidacta aplicada a proyectos reales</li>
-            <li>Experiencia docente en Python, Java y VBA</li>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Navegación principal">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Álvaro Contreras<span class="brand-dot">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#casos">Casos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portafolios">Portafolios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#capacidades">Capacidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
         </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="inicio">
+    <div class="container hero-content">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <span class="kicker"><i class="bi bi-lightning-charge-fill" aria-hidden="true"></i> Álvaro Andrés Contreras Rosas</span>
+          <h1>Transformo procesos manuales en soluciones tecnológicas que reducen tiempos, errores y reprocesos.</h1>
+          <p class="lead">Ayudo a organizaciones y equipos a automatizar operaciones, integrar sistemas y desarrollar soluciones empresariales orientadas a la productividad, la trazabilidad y la continuidad operativa.</p>
+          <p class="lead mb-4">Consultor Senior en <span class="rotating-line" data-rotating-text>Automatización de Procesos</span></p>
+          <div class="d-flex flex-wrap gap-3">
+            <a class="btn btn-aacr" href="casos-exito.html">Ver casos y resultados</a>
+            <a class="btn btn-aacr-outline" href="#servicios">Explorar servicios</a>
+            <a class="btn btn-aacr-outline" href="portafolio-ejecutivo.html">Ver portafolio ejecutivo</a>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="hero-card" aria-label="Resumen del perfil">
+            <div class="row g-3">
+              <div class="col-6"><div class="metric"><strong>Senior</strong><span>experiencia técnica y comprensión operativa</span></div></div>
+              <div class="col-6"><div class="metric"><strong>Integral</strong><span>negocio, operación y tecnología</span></div></div>
+              <div class="col-6"><div class="metric"><strong>Multisector</strong><span>educación, salud, servicios públicos y administración</span></div></div>
+              <div class="col-6"><div class="metric"><strong>End-to-end</strong><span>análisis, diseño, desarrollo, despliegue y evolución</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="section section-soft" id="impacto">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Impacto profesional</span>
+          <h2>Soluciones pensadas para negocio, operación y tecnología.</h2>
+          <p>La tecnología es el medio. El objetivo es mejorar procesos, reducir fricción operativa y dejar soluciones que puedan utilizarse, mantenerse y evolucionar.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3"><div class="card-aacr"><div class="icon-box"><i class="bi bi-graph-down-arrow" aria-hidden="true"></i></div><h3 class="h4">Reducción de tiempos</h3><p>Automatización de tareas que antes requerían horas o días de ejecución manual.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="card-aacr"><div class="icon-box"><i class="bi bi-shield-check" aria-hidden="true"></i></div><h3 class="h4">Menos reprocesos</h3><p>Validaciones, reglas de negocio y trazabilidad para mejorar la calidad de la información.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="card-aacr"><div class="icon-box"><i class="bi bi-diagram-3" aria-hidden="true"></i></div><h3 class="h4">Integración práctica</h3><p>Conexión de sistemas, portales, archivos, bases de datos y herramientas existentes.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="card-aacr"><div class="icon-box"><i class="bi bi-rocket-takeoff" aria-hidden="true"></i></div><h3 class="h4">Soluciones en operación</h3><p>Experiencia llevando herramientas desde el análisis hasta su uso en entornos productivos.</p></div></div>
+        </div>
+      </div>
     </section>
 
-    <footer>
-        📧 alvaro.contreras.job@gmail.com · 📱 318 523 1745
-    </footer>
+    <section class="section" id="sobre-mi">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5">
+            <div class="section-title text-start mb-0">
+              <span class="eyebrow">Sobre Álvaro</span>
+              <h2>Experiencia técnica con comprensión de la operación.</h2>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <p class="fs-5 text-secondary lh-lg">Soy un profesional especializado en automatización de procesos, integración de sistemas y desarrollo de soluciones empresariales. Trabajo con áreas de negocio, equipos operativos y usuarios finales para comprender el problema, identificar oportunidades de mejora y convertirlas en soluciones tecnológicas viables.</p>
+            <p class="text-secondary lh-lg">Mi enfoque es pragmático: aprovechar la infraestructura existente, evitar complejidad innecesaria y modernizar procesos de forma gradual. Participo desde el levantamiento de requerimientos hasta el despliegue, soporte y evolución de las soluciones.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="section section-dark" id="servicios">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Servicios</span>
+          <h2>Servicios para mejorar procesos, información y operación.</h2>
+          <p>Puedo apoyar desde el diagnóstico de una necesidad hasta la construcción, integración y evolución de una solución, con alcance proporcional al problema y a la infraestructura disponible.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4"><div class="card-aacr"><div class="icon-box"><i class="bi bi-gear-wide-connected" aria-hidden="true"></i></div><h3 class="h4">Automatización y optimización</h3><p>Análisis y automatización de actividades manuales, repetitivas o propensas a error mediante reglas, validaciones y flujos controlados.</p></div></div>
+          <div class="col-md-6 col-lg-4"><div class="card-aacr"><div class="icon-box"><i class="bi bi-window-stack" aria-hidden="true"></i></div><h3 class="h4">Soluciones empresariales</h3><p>Aplicaciones internas y herramientas operativas diseñadas alrededor de procesos específicos.</p></div></div>
+          <div class="col-md-6 col-lg-4"><div class="card-aacr"><div class="icon-box"><i class="bi bi-node-plus" aria-hidden="true"></i></div><h3 class="h4">Integración de sistemas y datos</h3><p>Conexión y consolidación de información proveniente de sistemas legacy, portales, bases de datos, archivos y APIs.</p></div></div>
+          <div class="col-md-6 col-lg-4"><div class="card-aacr"><div class="icon-box"><i class="bi bi-arrow-repeat" aria-hidden="true"></i></div><h3 class="h4">Modernización progresiva</h3><p>Evolución de procesos basados en Excel, VBA u otras herramientas existentes hacia soluciones más mantenibles cuando el contexto lo justifica.</p></div></div>
+          <div class="col-md-6 col-lg-4"><div class="card-aacr"><div class="icon-box"><i class="bi bi-search" aria-hidden="true"></i></div><h3 class="h4">Diagnóstico y arquitectura</h3><p>Identificación de cuellos de botella, riesgos, oportunidades de automatización y alternativas de solución.</p></div></div>
+          <div class="col-md-6 col-lg-4"><div class="card-aacr"><div class="icon-box"><i class="bi bi-check2-circle" aria-hidden="true"></i></div><h3 class="h4">Calidad y validación funcional</h3><p>Revisión de flujos críticos, pruebas funcionales y mecanismos de control para reducir fallos y reprocesos.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="casos">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Casos seleccionados</span>
+          <h2>Experiencia aplicada a problemas reales.</h2>
+          <p>Una selección de proyectos en los que se combinaron análisis de procesos, automatización, desarrollo, integración y operación.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4"><article class="case-card"><div class="case-top orange"><h3>PeopleSoft Automation Ecosystem</h3></div><div class="case-body"><p>Ecosistema para automatizar procesos académicos y administrativos con gestión, validaciones, trazabilidad y ejecución recurrente.</p><a href="casos-exito.html#peoplesoft" class="case-link">Ver contexto y resultados</a></div></article></div>
+          <div class="col-md-6 col-lg-4"><article class="case-card"><div class="case-top blue"><h3>FUR/FURSER Manager</h3></div><div class="case-body"><p>Plataforma web para procesar información, gestionar formularios institucionales y consolidar un flujo operativo.</p><a href="casos-exito.html#furfurser" class="case-link">Ver contexto y resultados</a></div></article></div>
+          <div class="col-md-6 col-lg-4"><article class="case-card"><div class="case-top green"><h3>Elephant.CU</h3></div><div class="case-body"><p>Plataforma para captura y consolidación de información en campo, con continuidad en escenarios de conectividad limitada.</p><a href="casos-exito.html#elephant" class="case-link">Ver contexto y resultados</a></div></article></div>
+        </div>
+        <div class="text-center mt-5"><a class="btn btn-aacr" href="casos-exito.html">Ver casos y resultados</a></div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="portafolios">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Rutas de lectura</span>
+          <h2>Elige el nivel de detalle que necesitas.</h2>
+          <p>La misma trayectoria profesional organizada para una evaluación rápida o una revisión detallada.</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-6 col-lg-4"><div class="card-aacr"><div class="icon-box"><i class="bi bi-file-earmark-person" aria-hidden="true"></i></div><h3>Portafolio Ejecutivo</h3><p>Lectura rápida del perfil, propuesta de valor, capacidades y proyectos representativos.</p><a class="btn btn-aacr mt-2" href="portafolio-ejecutivo.html">Ver resumen ejecutivo</a></div></div>
+          <div class="col-md-6 col-lg-4"><div class="card-aacr"><div class="icon-box"><i class="bi bi-file-earmark-richtext" aria-hidden="true"></i></div><h3>Portafolio Profesional Senior</h3><p>Revisión detallada de experiencia, capacidades, proyectos y tecnologías aplicadas.</p><a class="btn btn-aacr mt-2" href="portafolio-senior.html">Ver perfil completo</a></div></div>
+          <div class="col-md-6 col-lg-4"><div class="card-aacr"><div class="icon-box"><i class="bi bi-trophy" aria-hidden="true"></i></div><h3>Casos de experiencia</h3><p>Contexto, objetivos, acciones, resultados cualitativos y capacidades aplicadas.</p><a class="btn btn-aacr mt-2" href="casos-exito.html">Explorar casos</a></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="capacidades">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Capacidades</span>
+          <h2>Tecnologías al servicio del resultado.</h2>
+          <p>La selección tecnológica depende del problema, el entorno existente, el costo de adopción y la capacidad de mantenimiento.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4"><div class="card-aacr"><h3 class="h4">Automatización</h3><span class="badge-aacr">Python</span><span class="badge-aacr">Selenium</span><span class="badge-aacr">RPA</span><span class="badge-aacr">VBA</span><span class="badge-aacr">Power Automate</span><span class="badge-aacr">Google Apps Script</span></div></div>
+          <div class="col-lg-4"><div class="card-aacr"><h3 class="h4">Backend, datos e integración</h3><span class="badge-aacr">Django</span><span class="badge-aacr">PostgreSQL</span><span class="badge-aacr">SQLite</span><span class="badge-aacr">JSON</span><span class="badge-aacr">APIs</span><span class="badge-aacr">Procesamiento de datos</span></div></div>
+          <div class="col-lg-4"><div class="card-aacr"><h3 class="h4">Operación y calidad</h3><span class="badge-aacr">Linux</span><span class="badge-aacr">Gunicorn</span><span class="badge-aacr">Git</span><span class="badge-aacr">PyTest</span><span class="badge-aacr">Pruebas funcionales</span><span class="badge-aacr">Documentación técnica</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="colaboracion">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Colaboración</span>
+          <h2>Formas de colaboración adaptadas al alcance.</h2>
+          <p>Las condiciones se definen según la necesidad, los entregables y los criterios de aceptación de cada iniciativa.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3"><div class="card-aacr"><h3 class="h4">Proyecto definido</h3><p>Análisis, entregables y criterios de aceptación acordados para una necesidad concreta.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="card-aacr"><h3 class="h4">Bolsa de horas</h3><p>Acompañamiento para ajustes, evoluciones, soporte puntual o requerimientos priorizados.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="card-aacr"><h3 class="h4">Acompañamiento continuo</h3><p>Soporte y mejora incremental de soluciones que ya se encuentran en operación.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="card-aacr"><h3 class="h4">Diagnóstico</h3><p>Análisis del proceso, identificación de oportunidades y recomendación de una ruta de solución.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contacto">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <div class="section-title text-start mb-0">
+              <span class="eyebrow">Contacto</span>
+              <h2>Hablemos de tu proceso, proyecto u oportunidad.</h2>
+              <p>Si necesitas automatizar una operación, integrar sistemas, evaluar una solución o conversar sobre una oportunidad profesional, escríbeme por el canal que prefieras.</p>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="card-aacr">
+              <div class="icon-box"><i class="bi bi-chat-square-text" aria-hidden="true"></i></div>
+              <h3 class="h4">Canales de contacto</h3>
+              <div class="contact-links">
+                <a href="mailto:alvaro.contreras.job@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i><span>alvaro.contreras.job@gmail.com</span></a>
+                <a href="https://www.linkedin.com/in/alvarocontreras-automation" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+                <a href="https://github.com/Alvaro-Contreras" target="_blank" rel="noopener noreferrer"><i class="bi bi-github" aria-hidden="true"></i><span>GitHub</span></a>
+                <a href="https://wa.me/573185231745" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp" aria-hidden="true"></i><span>WhatsApp</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-3">
+      <div><strong>Álvaro Andrés Contreras Rosas</strong><br><span>Consultor Senior en Automatización, Integración de Sistemas y Optimización de Procesos</span></div>
+      <div class="text-md-end">Automatización · Integración · Soluciones empresariales<br><small>Visión futura: AACR Automation &amp; Business Solutions</small></div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
-
 </html>
