@@ -1,56 +1,56 @@
-# Álvaro Andrés Contreras Rosas  
-Senior Automation & Backend Python Engineer  
+# Portafolio Web Profesional
 
-Este repositorio contiene la versión pública de mi hoja de vida en formato web.
+Sitio profesional de Álvaro Andrés Contreras Rosas, Consultor Senior en
+Automatización, Integración de Sistemas y Optimización de Procesos.
 
-Soy Ingeniero Senior de Automatización y Backend Python con más de 10 años diseñando e implementando soluciones en producción orientadas a impacto operativo, reducción de errores manuales y evolución de sistemas existentes hacia arquitecturas más escalables.
+El portafolio presenta servicios, capacidades, casos y resultados para clientes,
+gerentes, reclutadores y contactos profesionales.
 
-Trabajo directamente con áreas de negocio para transformar problemas operativos reales en soluciones técnicas mantenibles, integrando automatización, backend y bases de datos en entornos productivos.
+## Sitio
 
----
+La URL del sitio es:
 
-## Enfoque Profesional
+<https://alvaro-contreras.github.io/alvaro-contreras-senior-automation-cv/>
 
-- Diseño de arquitectura para soluciones operativas.
-- Evolución de sistemas en producción sin afectar la continuidad del servicio.
-- Migraciones de bases de datos (SQLite → PostgreSQL).
-- Desarrollo backend con Django y Python.
-- Automatización de procesos críticos con Selenium y bots ejecutables.
-- Integración de sistemas legacy sin reescritura completa.
+## Contenido
 
----
+- `index.html`: página principal y rutas de navegación.
+- `casos-exito.html`: casos profesionales con estructura STAR adaptada.
+- `portafolio-ejecutivo.html`: resumen profesional de lectura rápida.
+- `portafolio-senior.html`: revisión detallada del perfil profesional.
+- `assets/css/styles.css`: estilos compartidos.
+- `assets/js/main.js`: interacción ligera y navegación móvil.
 
-## Tecnologías Principales
+## Desarrollo local
 
-- Python
-- Django
-- PostgreSQL
-- Automatización de procesos (RPA, Selenium)
-- Arquitectura de soluciones
-- Linux / Windows
-- Integración de sistemas
-- Diseño y modelado de bases de datos
+El sitio es estático y no requiere instalación de dependencias.
 
----
+Puede abrirse `index.html` directamente o servirse localmente desde la raíz del
+repositorio:
 
-## Experiencia Destacada
+```bash
+python3 -m http.server 8000
+```
 
-Entre los proyectos desarrollados se encuentran:
+Después puede consultarse en `http://127.0.0.1:8000/`.
 
-- People Manager (plataforma de gestión operativa en producción)
-- Bot de Automatización PeopleSoft (ejecución autónoma en entorno productivo)
-- Evolución a People Manager Web (migración a arquitectura web escalable con PostgreSQL y Django)
+## Estructura de publicación
 
-Cada solución ha sido implementada en entornos reales, con foco en estabilidad, trazabilidad y crecimiento progresivo conforme aumenta la demanda operativa.
+La estructura está preparada para servirse desde la raíz del repositorio:
 
----
+- `index.html` está en la raíz;
+- los enlaces internos usan rutas relativas;
+- no se requiere backend ni proceso de compilación;
+- `.nojekyll` evita procesamiento Jekyll innecesario.
 
-## Objetivo Profesional
+## Dependencias externas
 
-Busco roles senior en automatización, backend orientado a procesos, integración de sistemas y evolución de arquitecturas en producción, donde pueda aportar criterio técnico, visión de negocio y ejecución end-to-end.
+El sitio utiliza Bootstrap 5.3.3 y Bootstrap Icons 1.11.3 desde
+`cdn.jsdelivr.net`.
 
----
+## Contacto
 
-Contacto profesional:
-Bogotá, Colombia  
-LinkedIn: www.linkedin.com/in/alvarocontreras-automation
+- Correo: [alvaro.contreras.job@gmail.com](mailto:alvaro.contreras.job@gmail.com)
+- LinkedIn: [alvarocontreras-automation](https://www.linkedin.com/in/alvarocontreras-automation)
+- GitHub: [Alvaro-Contreras](https://github.com/Alvaro-Contreras)
+- WhatsApp: [+57 318 523 1745](https://wa.me/573185231745)
